@@ -7,7 +7,7 @@ http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/html'});
 
     // Send the response body as "Hello World"
-    res.write('<h1>Hello world</h1>')
+    res.write('<h1>Hello Lexicon</h1>')
 
     //This is to end a response
     res.end();
